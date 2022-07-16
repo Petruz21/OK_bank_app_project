@@ -1,8 +1,8 @@
 # OK BANK
 
 **A simple project of a bank**
-**Founder - Petruz21**
-**Collaborators - GersonYanez - CerbeLP - smamarse**
+- **Founder - Petruz21**
+- **Collaborators - GersonYanez - CerbeLP - smamarse**
 
 ![banner](https://img.lovepik.com/background/20211021/large/lovepik-blue-banner-background-image_500452484.jpg)
 
