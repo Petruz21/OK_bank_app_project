@@ -1,6 +1,6 @@
 # OK BANK
 
-** A simple project of a bank **
+**A simple project of a bank**
 
 - ## INDEX:
 
