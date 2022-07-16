@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ok_project_app", "ok_project_app\ok_project_app.csproj", "{3D11A581-5186-4C6B-9492-7DFAFC7A03DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ok_bank_app", "ok_bank_app\ok_bank_app.csproj", "{BB0B5074-CF3E-4741-BA3B-A223CD93DE60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3D11A581-5186-4C6B-9492-7DFAFC7A03DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3D11A581-5186-4C6B-9492-7DFAFC7A03DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3D11A581-5186-4C6B-9492-7DFAFC7A03DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3D11A581-5186-4C6B-9492-7DFAFC7A03DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB0B5074-CF3E-4741-BA3B-A223CD93DE60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB0B5074-CF3E-4741-BA3B-A223CD93DE60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB0B5074-CF3E-4741-BA3B-A223CD93DE60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB0B5074-CF3E-4741-BA3B-A223CD93DE60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2E40C9AF-C0BA-4CF5-836A-BF12FCCC11C1}
+		SolutionGuid = {124C0A27-3DEF-4E94-976A-8299667034FE}
 	EndGlobalSection
 EndGlobal

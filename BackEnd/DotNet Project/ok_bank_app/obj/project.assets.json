@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Emanuel\\Desktop\\OK_bank_project\\OK_bank_app_project\\BackEnd\\DotNet Project\\ok_project_app\\ok_project_app\\ok_project_app.csproj",
-      "projectName": "ok_project_app",
-      "projectPath": "C:\\Users\\Emanuel\\Desktop\\OK_bank_project\\OK_bank_app_project\\BackEnd\\DotNet Project\\ok_project_app\\ok_project_app\\ok_project_app.csproj",
+      "projectUniqueName": "C:\\Users\\Emanuel\\Desktop\\OK_bank_project\\OK_bank_app_project\\BackEnd\\DotNet Project\\ok_bank_app\\ok_bank_app\\ok_bank_app.csproj",
+      "projectName": "ok_bank_app",
+      "projectPath": "C:\\Users\\Emanuel\\Desktop\\OK_bank_project\\OK_bank_app_project\\BackEnd\\DotNet Project\\ok_bank_app\\ok_bank_app\\ok_bank_app.csproj",
       "packagesPath": "C:\\Users\\Emanuel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Emanuel\\Desktop\\OK_bank_project\\OK_bank_app_project\\BackEnd\\DotNet Project\\ok_project_app\\ok_project_app\\obj\\",
+      "outputPath": "C:\\Users\\Emanuel\\Desktop\\OK_bank_project\\OK_bank_app_project\\BackEnd\\DotNet Project\\ok_bank_app\\ok_bank_app\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Emanuel\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -11,7 +11,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ok_project_app
+namespace ok_bank_app
 {
     public class Startup
     {

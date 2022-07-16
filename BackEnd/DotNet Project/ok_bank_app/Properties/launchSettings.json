@@ -4,8 +4,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:26703",
-      "sslPort": 44339
+      "applicationUrl": "http://localhost:60819",
+      "sslPort": 44391
     }
   },
   "profiles": {
@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "ok_project_app": {
+    "ok_bank_app": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "weatherforecast",

@@ -1,6 +1,6 @@
 using System;
 
-namespace ok_project_app
+namespace ok_bank_app
 {
     public class WeatherForecast
     {
