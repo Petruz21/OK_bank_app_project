@@ -13,7 +13,7 @@
 ```
 ok_bank_app_project (WORK IN PROGRESS)
     ├── BeckEnd
-    │   ├── DotNet Project
+    │   └── DotNet Project
     │       ├── ok_bank_app
     │       │  ├── .vs
     │       │  ├── bin
@@ -29,7 +29,24 @@ ok_bank_app_project (WORK IN PROGRESS)
     │       └── ok_bank_app.sln
     │            
     ├── FrontEnd
-    │   ├── Angular Project
+    │   └── Angular Project
+    │       ├── ok_bank_app
+    │       │   ├── ok_bank_app
+    │       │   ├── .vscode
+    │       │   ├── node_modules
+    │       │   ├── src
+    │       │   ├── .browserslistrc
+    │       │   ├── .editorconfig
+    │       │   ├── .gitignore
+    │       │   ├── angular.json
+    │       │   ├── karma.conf.js
+    │       │   ├── package-lock.json
+    │       │   ├── package.json
+    │       │   ├── tsconfig.app.json
+    │       │   ├── tsconfig.json
+    │       │   └── tsconfig.spec.json
+    │       │   
+    │       └── angular_project.txt
     │
     └── README.md
 
