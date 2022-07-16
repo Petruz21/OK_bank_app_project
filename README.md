@@ -1,12 +1,10 @@
-OK BANK
+# OK BANK
 
-A simple project of a bank
+** A simple project of a bank **
 
-INDEX:
+- ## INDEX:
 
-.Project structure
-
-
+1. [Project structure](#project-structure)
 
 
 
@@ -22,4 +20,6 @@ INDEX:
 
 
 
-.PROJECT STRUCTURE
+
+
+- ## PROJECT-STRUCTURE
