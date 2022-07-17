@@ -9,7 +9,6 @@
 - ## INDEX:
 
 1. [Project structure](#project-structure)
-2. [Implementations](#implementations)
 
 - ## PROJECT-STRUCTURE
 
@@ -58,8 +57,3 @@ ok_bank_app_project (WORK IN PROGRESS)
     └── README.md
 
 ```
-
-
-- ## IMPLEMENTATIONS
-
-- User Model
