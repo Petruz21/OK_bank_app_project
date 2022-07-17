@@ -10,12 +10,19 @@ namespace ok_bank_app.Controllers
     public class UtenteController : ControllerBase
     {
 
+        /*
+         * TODO : modificare i commenti una volta rimossa la lista statica
+         *      : aggiungere i file di servizio 'Service' (dependency injection)
+         *      : generazione automatica dell'iban con un metodo private
+         */
+
+        // Lista statica di prova per controllare le opearzioni CRUD
         private static List<Utente> Utenti = new List<Utente>
         {
             new Utente(),
             new Utente
             {
-                Id = 1,
+                iban = "IT99C1234567890123456780002",
                 Nome = "Andrei",
                 Cognome = "Petrut",
                 Eta = "18",
@@ -32,12 +39,14 @@ namespace ok_bank_app.Controllers
         };
 
         [HttpGet]
+        // Metodo che ritorna la lista statica 'Utenti'
         public IActionResult GetAllUtenti()
         {
             return Ok(Utenti);
         }
 
         [HttpPost]
+        // Metodo che aggiunge un utente alla lista statica 'Utenti'
         public IActionResult AddUtente(Utente newUtente)
         {
             Utenti.Add(newUtente);
@@ -45,19 +54,23 @@ namespace ok_bank_app.Controllers
             return Ok(Utenti);
         }
 
-        [HttpDelete("{id}")]
-        public IActionResult DeleteUtente(int id)
+        [HttpDelete("{iban}")]
+        // Metodo che rende il parametro dell'utente selezionato come 'false' (soft delete)
+        public IActionResult DeleteUtente(string iban)
         {
-            Utente utente = Utenti.FirstOrDefault(u => u.Id == id);
-            Utenti.Remove(utente);
+            // La variabile contiene un oggetto di tipo Utente selezionandolo l'id con il metodo 'FirstOrDefault'
+            Utente utente = Utenti.FirstOrDefault(u => u.iban == iban);
+            //
+            utente.Attivo = false;
 
             return Ok(Utenti);
         }
 
         [HttpPut]
+        // Metodo che aggiorna l'utente selezionato nella variabile 'utente', modificandone tutti i parametri, quelli non modificati, si sostituiscono lo stesso di default
         public IActionResult UpdateUtente(Utente updateUtente)
         {
-            Utente utente = Utenti.FirstOrDefault(u => u.Id == updateUtente.Id);
+            Utente utente = Utenti.FirstOrDefault(u => u.iban == updateUtente.iban);
 
             utente.Nome = updateUtente.Nome;
             utente.Cognome = updateUtente.Cognome;

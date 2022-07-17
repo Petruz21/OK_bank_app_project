@@ -2,18 +2,18 @@
 {
     public class Utente
     {
-        public static Indirizzo IndirizzoUtente = new Indirizzo
-        {
-            Paese = "Italia",
-            Regione = "Piemonte",
-            Provincia = "Torino",
-            Comune = "Torino",
-            Via = "Porpora",
-            NumeroCivico = "55",
-            Cap = "10154"
-        };
 
-        public int Id { get; set; } = 0;
+        /* Creazione dell'Entity Utente
+         * Contiene informazioni generali su ogni utente registrato
+         * 
+         * Il campo 'Attivo' indica la volonta dell'utente di mantenere il suo Account attivo nella Banca 'OK'
+         * 
+         * TODO : generazione dell'iban automatica
+         *      : togliere i valori e lasciare le variabili vuote una volta collegato il db (per ora serve una versione statica)
+         */
+
+        public bool Attivo { get; set; } = true;
+        public string iban { get; set; } = "IT99C1234567890123456780001";
         public string Nome { get; set; } = "Emanuel";
         public string Cognome { get; set; } = "Petrut";
         public string Eta { get; set; } = "21";
