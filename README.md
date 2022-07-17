@@ -61,3 +61,5 @@ ok_bank_app_project (WORK IN PROGRESS)
 
 
 - ## IMPLEMENTATIONS
+
+- User Model
