@@ -60,4 +60,4 @@ ok_bank_app_project (WORK IN PROGRESS)
 ```
 
 
-- ## IMPLEMENTATION
+- ## IMPLEMENTATIONS
