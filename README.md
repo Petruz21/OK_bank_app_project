@@ -25,11 +25,15 @@ ok_bank_app_project (WORK IN PROGRESS)
     │       │  ├── appsettings.Development.json
     │       │  ├── appsettings.json
     │       │  ├── ok_bank_app.csproj
-    │       │  ├── Program.cs    
+    │       │  ├── Dto
+    │       │  ├── Models
+    │       │  ├── Response
+    │       │  ├── Services
+    │       │  ├── Program.cs    
     │       │  └── Startup.cs
-    │       │   
+    │       │       
     │       └── ok_bank_app.sln
-    │            
+    │   
     ├── FrontEnd
     │   └── Angular Project
     │       ├── ok_bank_app
