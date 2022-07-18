@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ok_bank_app.Models;
+using ok_bank_app.Services.UtenteService;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace ok_bank_app.Controllers
 {
@@ -12,11 +14,19 @@ namespace ok_bank_app.Controllers
 
         /*
          * TODO : modificare i commenti una volta rimossa la lista statica
-         *      : aggiungere i file di servizio 'Service' (dependency injection)
+         *      : aggiungere i file di servizio 'Service' (dependency injection) [FATTO]
          *      : generazione automatica dell'iban con un metodo private
          */
 
         // Lista statica di prova per controllare le opearzioni CRUD
+
+        private readonly IUtenteService _utenteService;
+
+        public UtenteController(IUtenteService utenteService)
+        {
+            _utenteService = utenteService;
+        }
+
         private static List<Utente> Utenti = new List<Utente>
         {
             new Utente(),
@@ -40,52 +50,30 @@ namespace ok_bank_app.Controllers
 
         [HttpGet]
         // Metodo che ritorna la lista statica 'Utenti'
-        public IActionResult GetAllUtenti()
+        public async Task<IActionResult> GetAllUtenti()
         {
-            return Ok(Utenti);
+            return Ok(await _utenteService.GetAllUtenti());
         }
 
         [HttpPost]
         // Metodo che aggiunge un utente alla lista statica 'Utenti'
-        public IActionResult AddUtente(Utente newUtente)
+        public async Task<IActionResult> AddUtente(Utente newUtente)
         {
-            Utenti.Add(newUtente);
-
-            return Ok(Utenti);
+            return Ok(await _utenteService.AddUtente(newUtente));
         }
 
         [HttpDelete("{iban}")]
         // Metodo che rende il parametro dell'utente selezionato come 'false' (soft delete)
-        public IActionResult DeleteUtente(string iban)
+        public async Task<IActionResult> DeleteUtente(string iban)
         {
-            // La variabile contiene un oggetto di tipo Utente selezionandolo l'id con il metodo 'FirstOrDefault'
-            Utente utente = Utenti.FirstOrDefault(u => u.iban == iban);
-            //
-            utente.Attivo = false;
-
-            return Ok(Utenti);
+            return Ok(await _utenteService.DeleteUtente(iban));
         }
 
         [HttpPut]
         // Metodo che aggiorna l'utente selezionato nella variabile 'utente', modificandone tutti i parametri, quelli non modificati, si sostituiscono lo stesso di default
-        public IActionResult UpdateUtente(Utente updateUtente)
+        public async Task<IActionResult> UpdateUtente(Utente updateUtente)
         {
-            Utente utente = Utenti.FirstOrDefault(u => u.iban == updateUtente.iban);
-
-            utente.Nome = updateUtente.Nome;
-            utente.Cognome = updateUtente.Cognome;
-            utente.Eta = updateUtente.Eta;
-            utente.CodiceFiscale = updateUtente.CodiceFiscale;
-            utente.numeroCI = updateUtente.numeroCI;
-            utente.Paese = updateUtente.Paese;
-            utente.Regione = updateUtente.Regione;
-            utente.Provincia = updateUtente.Provincia;
-            utente.Comune = updateUtente.Comune;
-            utente.Via = updateUtente.Via;
-            utente.NumeroCivico = updateUtente.NumeroCivico;
-            utente.Cap = updateUtente.Cap;
-
-            return Ok(Utenti);
+            return Ok(await _utenteService.UpdateUtente(updateUtente));
         }
     }
 }

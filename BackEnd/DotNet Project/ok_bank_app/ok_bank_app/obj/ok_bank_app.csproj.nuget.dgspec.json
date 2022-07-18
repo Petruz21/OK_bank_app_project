@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Emanuel\\Desktop\\ok_bank_app_brench_controllers\\BackEnd\\DotNet Project\\ok_bank_app\\ok_bank_app\\ok_bank_app.csproj": {}
+    "C:\\Users\\emanuel.petrut\\Source\\Repos\\OK_bank_app_project\\BackEnd\\DotNet Project\\ok_bank_app\\ok_bank_app\\ok_bank_app.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Emanuel\\Desktop\\ok_bank_app_brench_controllers\\BackEnd\\DotNet Project\\ok_bank_app\\ok_bank_app\\ok_bank_app.csproj": {
+    "C:\\Users\\emanuel.petrut\\Source\\Repos\\OK_bank_app_project\\BackEnd\\DotNet Project\\ok_bank_app\\ok_bank_app\\ok_bank_app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emanuel\\Desktop\\ok_bank_app_brench_controllers\\BackEnd\\DotNet Project\\ok_bank_app\\ok_bank_app\\ok_bank_app.csproj",
+        "projectUniqueName": "C:\\Users\\emanuel.petrut\\Source\\Repos\\OK_bank_app_project\\BackEnd\\DotNet Project\\ok_bank_app\\ok_bank_app\\ok_bank_app.csproj",
         "projectName": "ok_bank_app",
-        "projectPath": "C:\\Users\\Emanuel\\Desktop\\ok_bank_app_brench_controllers\\BackEnd\\DotNet Project\\ok_bank_app\\ok_bank_app\\ok_bank_app.csproj",
-        "packagesPath": "C:\\Users\\Emanuel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emanuel\\Desktop\\ok_bank_app_brench_controllers\\BackEnd\\DotNet Project\\ok_bank_app\\ok_bank_app\\obj\\",
+        "projectPath": "C:\\Users\\emanuel.petrut\\Source\\Repos\\OK_bank_app_project\\BackEnd\\DotNet Project\\ok_bank_app\\ok_bank_app\\ok_bank_app.csproj",
+        "packagesPath": "C:\\Users\\emanuel.petrut\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emanuel.petrut\\Source\\Repos\\OK_bank_app_project\\BackEnd\\DotNet Project\\ok_bank_app\\ok_bank_app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Emanuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\emanuel.petrut\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
